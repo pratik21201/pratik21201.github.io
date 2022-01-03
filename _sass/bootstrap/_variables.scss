@@ -365,7 +365,7 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $text-color !default;
+$navbar-default-color:             #990000 !default;
 $navbar-default-bg:                #990000 !default;
 $navbar-default-border:            $input-border !default;
 
@@ -421,7 +421,7 @@ $navbar-inverse-toggle-border-color:        $gray-lighter !default;
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         #fff !default;
+$nav-link-hover-bg:                         #990000 !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
