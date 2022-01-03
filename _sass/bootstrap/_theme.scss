@@ -168,7 +168,6 @@
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   border-radius: 0;
-  color: red;
 }
 
 // Fix active state of dropdown items in collapsed mode
@@ -177,7 +176,7 @@
     &,
     &:hover,
     &:focus {
-      color: #fff;
+      color: #000;
       @include gradient-vertical($start-color: $dropdown-link-active-bg, $end-color: darken($dropdown-link-active-bg, 5%));
     }
   }
