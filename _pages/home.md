@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "Davuluri Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Davuluri Lab at Stony Brook University."
 sitemap: false
 permalink: /
 ---
