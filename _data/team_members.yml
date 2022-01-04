@@ -1,11 +1,11 @@
 - name: Ramana V. Davuluri
   photo: Ramana.jpeg
-  info: Professor, Department of Biomedical Informatics \\//
-  Scientific Director, Bioinformatics Shared Resource, Stony Brook Cancer Center
-  Affiliated Faculty, Institute for AI-Driven Discovery and Innovation
-  MART 7M-0814, Stony Brook, NY 11794
-  Stony Brook Medicine, Stony Brook University.
+  info: Professor, Department of Biomedical Informatics
   email: Ramana.Davuluri@stonybrookmedicine.edu
+  number_educ: 3
+  education1: Postdoc with <a href="http://hoffman.physics.harvard.edu">Jenny Hoffman</a>, Harvard University
+  education2: PhD with <a href="https://www.physics.sjtu.edu.cn/en/people/1/jfJia">Jinfeng Jia</a>, Shanghai Jiao Tong University
+  education3: B.S. East China University of Science and Technology
 
 
 - name: Jianfeng (Jacky) Ge
