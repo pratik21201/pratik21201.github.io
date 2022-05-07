@@ -141,10 +141,6 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 
 
 
-
-
-
-
 ## Graduate Students
 
 {% assign number_printed = 0 %}
