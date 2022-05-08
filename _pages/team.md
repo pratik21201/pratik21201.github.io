@@ -23,11 +23,10 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 <div class="row">
 {% endif %}
 
-<div class="8 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <i><b>email:</b>{{ member.email }}</i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -80,7 +79,7 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 
 ## Postdoctoral Fellows
 {% assign number_printed = 0 %}
-{% for member in site.data.staff_members %}
+{% for member in site.data.post_doc_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -89,12 +88,9 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <a href= "https://duttaprat.github.io/">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  </a>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} </i>
-  <i><b>email:</b>{{ member.email }}</i>
+  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -119,13 +115,6 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
   <li> {{ member.education4 }} </li>
   {% endif %}
 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
 
   </ul>
 </div>
@@ -148,7 +137,7 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 ## Graduate Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.grad_students %}
+{% for member in site.data.alumni_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -159,8 +148,7 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} </i>
-  <i><b>email:</b>{{ member.email }}</i>
+  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
 
   </ul>
@@ -206,5 +194,5 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 </div>
 
 
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+<!-- ## Administrative Support
+<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->

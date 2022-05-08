@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Davuluri Lab - Team"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Davuluri Lab: Team members"
 sitemap: false
 permalink: /publications/
 ---
@@ -11,7 +11,7 @@ permalink: /publications/
 
 ## Group highlights
 
-(For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
+(For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.com/citations?user=X0saPWYAAAAJ), [DBLP](https://dblp.org/pid/55/2246.html))
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -53,9 +53,7 @@ permalink: /publications/
 
 
 ## Patents
-<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
-
-<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a>
+<em>Ramana V. Davuluri, Sharmistha Pal, Yingtao Bi, Louise C. Showe, Donald M. O'rourke, Luke Macyszyn</em><br /> Methods and compositions for diagnosis of glioblastoma or a subtype thereof <br /> <a href="https://patents.google.com/patent/WO2014165753A1/en">US10113201B2 (2018)</a>
 
 ## Full List of publications
 
