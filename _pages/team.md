@@ -89,7 +89,9 @@ Jump to [faculty](#faculty), [postdoctoral fellows](#postdoctoral-fellows), [gra
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <a href= "https://duttaprat.github.io/">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  </a>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} </i>
   <i><b>email:</b>{{ member.email }}</i>
