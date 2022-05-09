@@ -23,10 +23,10 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 <div class="row">
 {% endif %}
 
-<div class="col-sm-8 clearfix">
+<div class="col-sm-10 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="20%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <br><b>email:</b>{{ member.email }}</i>
+  <i>{{ member.info }} <br><b>Email: </b>{{ member.email }}</i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}

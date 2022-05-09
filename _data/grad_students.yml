@@ -1,0 +1,27 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Rekha Sathian
+  photo: rekha.jpeg
+  info: Graduate Student, started Oct 2020
+  email: rekha.sathian@stonybrook.edu 
+  number_educ: 1
+  education1: MS in Bioinformatics,Union Christian College, Kerala, India
+
+
+- name: Pallavi Surana
+  photo: pallavi.jpg
+  info: Graduate Student, started July 2021
+  email: pallavi.surana@stonybrook.edu
+  number_educ: 1
+  education1: MS in Bioinformatics and Genomics <a href="https://caldes.ibs.re.kr/html/caldes_en/">Santhosh Girirajan, MBBS, PhD</a> Penn State University, USA
+  Website: https://www.pallavisurana.com/
+
+
