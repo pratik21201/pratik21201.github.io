@@ -135,7 +135,6 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 
 
 ## Graduate Students
-
 {% assign number_printed = 0 %}
 {% for member in site.data.grad_students %}
 
@@ -145,20 +144,41 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 <div class="row">
 {% endif %}
 
-  <div class="col-sm-6 clearfix">
-    <a href= "{{ member.website }}" target="_blank">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-    </a>
-    <h4>{{ member.name }}</h4>
-    <i>{{ member.info }} <br><b>Email: </b>{{ member.email }}</i>
-    <ul style="overflow: hidden">
+<div class="col-sm-6 clearfix">
+  <a href= "{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }} <br><b>Email: </b>{{ member.email }}</i>
+  <ul style="overflow: hidden">
 
-    </ul>
-  </div>
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
 
-  {% assign number_printed = number_printed | plus: 1 %}
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
 
-  {% if even_odd == 1 %}
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
 </div>
 {% endif %}
 
@@ -168,8 +188,6 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
 
 
 
