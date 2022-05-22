@@ -145,20 +145,20 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <a href= "{{ member.website }}" target="_blank">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  </a>
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <br><b>Email: </b>{{ member.email }}</i>
-  <ul style="overflow: hidden">
+  <div class="col-sm-6 clearfix">
+    <a href= "{{ member.website }}" target="_blank">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+    </a>
+    <h4>{{ member.name }}</h4>
+    <i>{{ member.info }} <br><b>Email: </b>{{ member.email }}</i>
+    <ul style="overflow: hidden">
 
-  </ul>
-</div>
+    </ul>
+  </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
+  {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+  {% if even_odd == 1 %}
 </div>
 {% endif %}
 
@@ -168,6 +168,11 @@ Jump to [faculty](#faculty), [research staffs](#research-staffs), [graduate stud
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+
+
+
+
 
 ## Former visitors, BSc/ MSc students
 <div class="row">
